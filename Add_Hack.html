@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <br><br><br>
+      <title>Kid's Center</title><br>
+      <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/Add_Hack_CSS.css') }}">
+  </head>
+  <body>
+
+    <div id="container">
+      <div id="page-header">
+      <br>
+        <h1>Kid's Center</h1>
+        <h2>Add Video!</h2>
+      </div>
+
+      <form action="{{url_for('Add_Hack')}}" method="post"><br>
+      <input type="text" name="title" placeholder="Title your Video"><br><br>
+            <B>Select A Category</B> <BR>
+<SELECT NAME="category">
+<OPTION SELECTED> Boys
+<OPTION> Girls
+<OPTION> Both
+<OPTION> Young
+<OPTION> Old
+<OPTION> Other
+
+</SELECT><br><br>
+      <input type="text" name="vid_url" placeholder="Enter video URL here"><br><br>
+            <textarea name="description" placeholder="Explain your Video!"></textarea>
+        
+        <br>
+
+        <input type="submit">
+    
+        
+        <br>
+        
+      </form>
+      <div class="cancel_btn"> 
+      <a href="/" class="cancel_btn" role="button">Cancel</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      
+    </footer>
+
+  </body>
+</html>
