@@ -1,0 +1,193 @@
+u /*h2 {
+   color: #069F34;
+}
+*/
+
+
+h1 {
+   color:black;
+   text-align: center;
+   font-weight: bold;
+
+   font-size: 450% ;
+
+
+}
+
+h3 {
+   color:black;
+   text-align: left;
+   font-weight: bold;
+   font-family: Serif;
+   font-size: 25px ;
+}
+
+h4{
+    color:black;
+   text-align: left;
+   font-weight: bold;
+   font-family: Serif;
+   font-size: 25px;
+
+}
+
+h5{
+    color:black;
+   text-align: center;
+   font-weight: bold;
+   font: Serif;
+   font-size: 25px ;
+}
+
+.center{
+    background-color: white;
+    border: 3px black;
+    outline: 20px black;
+    outline-offset: 15em;
+
+
+}
+ 
+
+
+.plus {
+    color: white;
+    position: absolute;
+    top: 0;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 0;
+    margin: 7px;
+    line-height: 29px;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    animation: plus-out 0.3s;
+    transition: all 0.3s;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    position: right;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+
+}
+
+
+
+
+
+#play_button {
+    position:absolute;
+    transition: .5s ease;
+    top: 50%;
+    right: 50%;
+}
+
+.center{
+	text-align: center;
+}
+
+h2 {
+	font-weight: Helvetica;
+}
+
+li {
+    
+      width: -200px;
+  height: -200px;
+  border: 2px solid white;
+}
+
+
+.center{
+    color: #069F34;
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+
+
+}
+
+h5 {
+
+    font-family: Arial;
+    font-size: 50px;
+    color: black;
+
+}
+
+#floating-button{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: #069F34;
+  position: fixed;
+  bottom: 35px;
+  right: 30px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px #666;
+}
+
+
+.Add_Hack{
+  text-align: center;
+  font-size: 19px;
+  color:white;
+  text-decoration:none; 
+}
+
